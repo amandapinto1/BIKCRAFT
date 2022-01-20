@@ -1,0 +1,3 @@
+.introducao h1::after {
+  visibility: hidden;
+}

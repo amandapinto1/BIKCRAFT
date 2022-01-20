@@ -1,0 +1,28 @@
+.img-interna {
+  background: url("../img/bg-portfolio.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.quotes {
+  text-align: center;
+  margin: 0 auto;
+  padding: 60px 0;
+  max-width: 500px;
+  color: #000;
+}
+
+.quotes p {
+  font-size: 18px;
+  line-height: 25px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.quotes cite {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+}

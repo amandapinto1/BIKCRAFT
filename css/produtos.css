@@ -1,0 +1,211 @@
+.produto {
+  background: url("../img/bg-produtos.jpg") no-repeat center;
+  background-size: cover;
+}
+.cont-passeio {
+  margin-top: 60px;
+  margin-bottom: 0px;
+}
+.passeio {
+  width: 640px;
+  height: 280px;
+  background: url("../img/produtos/bikcraf-passeio-1.jpg") no-repeat center;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.esporte {
+  width: 640px;
+  height: 280px;
+  background: url("../img/produtos/bikcraf-esporte-1.jpg") no-repeat center;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.retro {
+  width: 640px;
+  height: 280px;
+  background: url("../img/produtos/bikcraf-retro-1.jpg") no-repeat center;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 40px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+  padding-top: 100px;
+}
+.titulo::before,
+.titulo::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 5px auto;
+}
+
+.icone-passeio {
+  background: url("../img/produtos/passeio.svg") #000 no-repeat center;
+  height: 280px;
+}
+
+.icone-esporte {
+  background: url("../img/produtos/esporte.svg") #000 no-repeat center;
+  height: 280px;
+}
+
+.icone-retro {
+  background: url("../img/produtos/retro.svg") #000 no-repeat center;
+  height: 280px;
+}
+
+.box {
+  color: #fff;
+  background: #000;
+  max-height: 280px;
+}
+.box p {
+  font-size: 18px;
+  line-height: 25px;
+  padding: 30px 30px 23px 30px;
+}
+
+.box-info {
+  background: #000;
+}
+
+.box ul {
+  background: #000;
+}
+
+.box ul li {
+  color: #000;
+  background: #fec63e;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  float: left;
+  width: 229px;
+  height: 50px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.box ul li:nth-child(1),
+.box ul li:nth-child(2) {
+  margin-bottom: 2px;
+}
+
+.box ul li:nth-child(even) {
+  margin-left: 2px;
+}
+
+/* ORÇAMENTO */
+.orcamento {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 60px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+.orcamento h2 {
+  color: #fec63e;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.orcamento h2::after {
+  background: #fec63e;
+}
+
+.orcamento h3 {
+  color: #fec63e;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.orcamento h3::after {
+  visibility: hidden;
+}
+
+.form {
+  padding-right: 60px;
+}
+
+.form label {
+  display: block;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 3px;
+}
+
+.form input {
+  display: block;
+  width: 100%;
+  border: 4px solid #fec63e;
+  background: none;
+  color: #fff;
+  outline: none;
+  padding: 7px 10px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.form textarea {
+  display: block;
+  width: 100%;
+  height: 120px;
+  border: 4px solid #fec63e;
+  background: none;
+  color: #fff;
+  outline: none;
+  padding: 7px 10px;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.form button {
+  background: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 10px 40px;
+}
+
+.dados_orcamento span {
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.monte {
+  margin-bottom: 20px;
+}
+
+.dados_orcamento ul {
+  margin-top: 10px;
+  padding-right: 60px;
+}
+
+.dados_orcamento ul li {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+}
+.dados_orcamento ul li:nth-child(odd) {
+  background: #292929;
+}
+.dados_email {
+  margin-bottom: 60px;
+}
+
+footer {
+  margin-top: 0px;
+}

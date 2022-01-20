@@ -1,0 +1,50 @@
+.img-interna {
+  background: url("../img/bg-sobre.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.hist1 {
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.hist1 .grid-10 p {
+  padding-right: 60px;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 30px;
+}
+
+.hist1 ul li {
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 30px;
+}
+
+.subtitulo {
+  text-align: left;
+  margin-bottom: 15px;
+}
+.subtitulo::after {
+  margin-left: 0px;
+  margin-top: 3px;
+}
+.hist1 .equipe {
+  margin-top: 40px;
+}
+
+.qualidade .subtitulo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.qualidade .subtitulo::after {
+  margin: 6px auto;
+}
+.qualidade {
+  clear: both;
+}
+
+.qualidade-img::after {
+  top: 188px;
+}
